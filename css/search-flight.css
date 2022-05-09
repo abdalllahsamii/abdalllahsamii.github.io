@@ -1,0 +1,143 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    height: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.container {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*#978784*/
+/*start background*/
+.background {
+    background: linear-gradient(to bottom, #16267a, #1884b8);
+    ;
+    height: 745px;
+    background-size: cover;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*end background*/
+
+/*start dad*/
+
+#center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#dad {
+    width: 900px;
+    height: 700px;
+
+    display: grid;
+    grid-template-rows: 10 0%;
+    grid-template-columns: 50% 50%;
+    box-shadow: 0px 4px 6px rgb(0 0 0 / 25%);
+
+}
+
+.ok {
+    height: 100%;
+    text-align: center;
+    background-color: #eee;
+    box-shadow: -6px 12px 9px rgb(0 0 0 / 25%)
+}
+
+.no {
+    height: 100%;
+    box-shadow: 7px 12px 6px rgb(0 0 0 / 25%);
+}
+
+/*end dad*/
+
+/*left side*/
+.ok img {
+width: 60%;
+    margin-top: 80px !important;
+    margin-left: 92px;
+    margin-right: 56px;
+}
+
+.ok input {
+    width: 70%;
+    height: 40px;
+    border: 0.5px;
+    border-radius: 36px;
+    background-color: rgb(155 170 252);
+    margin-top: 50px;
+    margin-left: 16px;
+    color: black;
+}
+
+
+
+
+
+
+/*right side*/
+.no {
+    background-image: url(../media/loginEdits.jpg) !important;
+}
+
+/*create account*/
+.in,
+#inp,
+.date {
+    border-radius: 0px !important;
+}
+.ll {
+    font-weight: bold;
+        text-align: center;
+        font-size: 4rem;
+}

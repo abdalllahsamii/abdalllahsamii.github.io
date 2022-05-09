@@ -1,0 +1,131 @@
+.t{
+    font-family: 'Tapestry', cursive;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../media/end2.webp);
+}
+.en {
+    border-right: none !important;
+}
+.container {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#container {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    /* position: absolute; */
+    z-index: 2;
+    background-color: #fff;
+    width: 100%;
+    height: 90px;
+    box-shadow: 0px 4px 6px rgb(0 0 0 / 25%);
+}
+
+.sp {
+    text-decoration: none;
+    color: black;
+    padding: 31px 25px 31px 25px !important;
+    position: relative;
+    border-right: 1px solid #c2c3c2;
+}
+
+.end #hov:hover,
+.end #c:hover {
+    background-color: #16267a;
+    color: white !important;
+
+}
+
+#c {
+    display: block !important;
+}
+
+.header .container .end {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.header .container .end a {
+
+    text-decoration: none;
+    color: black;
+    padding: 35px 25px 35px 25px;
+
+    font-size: 1.1rem;
+    border-right: 1px solid #c2c3c2;
+}
+
+.header .container {
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#hide {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    bottom: -33px;
+    left: -114px;
+    height: 34px;
+    width: 191px;
+    display: none;
+    border-radius: 22px;
+    border-width: 0.5px;
+    z-index: 5;
+}
+
+.contact a {
+
+    color: #16267a !important;
+    padding: 0px !important;
+    font-size: 1.1rem;
+    border-right: none !important;
+}
+
+
+.contact {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    bottom: -36px;
+    height: 36px;
+    width: 191px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    display: none;
+    border-radius: 22px;
+    border-width: 0.5px;
+    top: 90px;
+    z-index: 5;
+}
+
+
+/*end header*/
+.t {
+    /* margin-top: 200px; */
+    font-size: 3.5rem;
+    margin-top: 70px;
+    color: black;
+}

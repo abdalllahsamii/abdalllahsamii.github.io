@@ -1,0 +1,14 @@
+  
+
+
+.img{
+    display: flex;
+    flex-direction: row;
+    margin:30px;
+    position: absolute;
+    left:30%;
+}
+
+   
+    
+    

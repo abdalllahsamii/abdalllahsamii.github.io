@@ -1,0 +1,274 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-weight: bold !important;
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    height: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.container {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#container {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.en {
+    border-right: none !important;
+}
+
+.header {
+    /* position: absolute; */
+    z-index: 2;
+    background-color: #fff;
+    width: 100%;
+    height: 90px;
+    box-shadow: 0px 4px 6px rgb(0 0 0 / 25%);
+}
+
+.sp {
+    text-decoration: none;
+    color: black;
+    padding: 31px 25px 31px 25px !important;
+    position: relative;
+    border-right: 1px solid #c2c3c2;
+}
+
+.end #hov:hover,
+.end #c:hover {
+    background-color: #16267a;
+    color: white !important;
+
+}
+
+#c {
+    display: block !important;
+}
+
+.header .container .end {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.header .container .end a {
+
+    text-decoration: none;
+    color: black;
+    padding: 35px 25px 35px 25px;
+
+    font-size: 1.1rem;
+    border-right: 1px solid #c2c3c2;
+}
+
+.header .container {
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#hide {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    bottom: -33px;
+    left: -114px;
+    height: 34px;
+    width: 191px;
+    display: none;
+    border-radius: 22px;
+    border-width: 0.5px;
+}
+
+.contact a {
+
+    color: #16267a !important;
+    padding: 0px !important;
+    font-size: 1.1rem;
+    border-right: none !important;
+}
+
+
+.contact {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    bottom: -36px;
+    height: 36px;
+    width: 191px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    display: none;
+    border-radius: 22px;
+    border-width: 0.5px;
+    top: 90px;
+}
+
+
+body {
+    scroll-behavior: smooth;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../media/Reservation.jpg);
+}
+
+.cont1 {
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-areas:
+        "head head head head"
+        "list img img img "
+        "list img img img "
+        " p1 p1 p1 p1 ";
+    grid-gap: 10px;
+}
+
+.head1 {
+    grid-area: head;
+}
+
+.list1 {
+    grid-area: list;
+    border: 10px black solid;
+}
+
+.img1 {
+    grid-area: img;
+}
+
+.pp1 {
+    grid-area: p1;
+}
+
+.cont2 {
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-areas:
+        "head head head head"
+        "list img img img "
+        "list img img img "
+        " p1 p1 p1 p1 ";
+    grid-gap: 10px;
+}
+
+.head2 {
+    grid-area: head;
+}
+
+.list2 {
+    grid-area: list;
+    border: 10px black solid;
+}
+
+.img2 {
+    grid-area: img;
+}
+
+.pp2 {
+    grid-area: p1;
+}
+
+.cont3 {
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-areas:
+        "head head head head"
+        "list img img img "
+        "list img img img "
+        " p1 p1 p1 p1 ";
+    grid-gap: 10px;
+}
+
+.head3 {
+    grid-area: head;
+}
+
+.list3 {
+    grid-area: list;
+    border: 10px black solid;
+}
+
+.img3 {
+    grid-area: img;
+}
+
+.pp3 {
+    grid-area: p1;
+}
+
+.cont4 {
+    display: grid;
+    grid-auto-rows: minmax(50px, auto);
+    grid-template-areas:
+        "head head head head"
+        "list img img img "
+        "list img img img "
+        " p1 p1 p1 p1 ";
+    grid-gap: 10px;
+}
+
+.head4 {
+    grid-area: head;
+}
+
+.list4 {
+    grid-area: list;
+    border: 10px black solid;
+}
+
+.img4 {
+    grid-area: img;
+}
+
+.pp4 {
+    grid-area: p1;
+}
